@@ -1,0 +1,140 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header style */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.nav-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon-container > nav {
+  margin-right: 32px;
+  font-size: 14px;
+}
+
+.brand-name {
+  color: orange;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row !important;
+  margin: 0px;
+}
+
+.nav-list > li {
+  margin-right: 8px;
+}
+
+.nav-list > li:last-child {
+  margin-right: 0px;
+}
+
+.nav-list > li.active {
+  border-bottom: 1px solid orange;
+}
+
+.user-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: gray;
+}
+/*.header style */
+
+/* hero section style */
+
+.quote {
+  font-size: 2.5rem;
+}
+
+.hero > .img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.author {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+/* .hero section style */
+
+/* title section body */
+
+.meals > .title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-section > .title {
+  text-transform: uppercase;
+  color: orange;
+}
+
+.search-container input {
+  height: 20px;
+  border-radius: 16px;
+  outline: none;
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+/* .title section body */
+
+/* pills styles */
+.pills {
+  display: flex;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.pills .pills-item {
+  border: 1px solid gray;
+  margin-right: 16px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.pill-count {
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  font-size: 10px;
+  padding: 4px;
+}
+
+/* .pills styles */
+
+/* food cards style */
+
+/* .food-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+} */
+
+.food-cards {
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.food-card-thumbnail {
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* .food cards style */
